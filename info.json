@@ -1,0 +1,13 @@
+{
+  "name": "WePlayChooChooTaxi",
+  "version": "0.2.2",
+  "factorio_version": "2.1",
+  "title": "WePlay: Choo-Choo Taxi",
+  "author": "WePlay",
+  "description": "A personal shuttle train you call from the shortcut bar. Click to call it, hop in, click again to pick a destination. Rides the Space Exploration space elevator between a planet and its orbit!",
+  "dependencies": [
+    "base >= 2.1.0",
+    "? space-exploration",
+    "? WePlayTaxiLocomotive"
+  ]
+}

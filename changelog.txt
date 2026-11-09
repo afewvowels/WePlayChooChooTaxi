@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2026-11-05
+  Changes:
+    - Added WePlay: Taxi Train as an optional dependency: a zippy half-size taxi locomotive made for Choo-Choo Taxi.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2026-11-03
+  Changes:
+    - If there's no depot on the taxi's current planet/orbit, it rides the space elevator back to the depot on the other side.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2026-11-03
+  Features:
+    - Depots! Click the train-stop button next to a station in the destination list to make it the taxi's depot on that planet or orbit.
+    - The taxi drives back to its depot when you step out after a ride (can be turned off in per-player settings).
+    - Clicking the shortcut while standing next to your empty taxi sends it to the depot.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-11-03
+  Bugfixes:
+    - Fixed crash when calling the taxi (LuaTrain has no surface_index).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-03
+  Features:
+    - Shortcut bar button and hotkey (Alt+J) to register, call, and ride a personal taxi train.
+    - Destination picker with search, grouped by surface.
+    - Space Exploration support: the taxi can ride the space elevator between a planet and its orbit, both when called and when carrying you.
